@@ -24,4 +24,5 @@ def add_numbers(a:int, b:int) -> int:
     return a + b
 
 if __name__ == "__main__":
-    say_hi()
+    message = ("Hi Sebastian, this means your deployment worked")
+    say_hi(message)
